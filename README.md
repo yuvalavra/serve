@@ -1,3 +1,3 @@
-curl -OL https://raw.githubusercontent.com/YuvalAvra/serve/main/
+curl -OL https://raw.githubusercontent.com/yuvalavra/serve/main/
 
 
